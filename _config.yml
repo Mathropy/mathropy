@@ -331,3 +331,9 @@ defaults:
       related: true
       mathjax: true
 
+# conversion
+ markdown: kramdown
+ highlighter: rouge
+ lsi: false
+ excerpt_separator: "\n\n"
+ incremental: false
