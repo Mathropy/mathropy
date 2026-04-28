@@ -4,7 +4,8 @@ title: "About Me"
 permalink: /about/
 ---
 
-About Me
+**About Me**
+
 Hi there! I’m Hyeonki Son, also known as Mathropy. Born in 2002, I am currently a senior majoring in Mathematics.
 
 This blog is a dedicated space for the mathematical puzzles I create. Crafting these problems and translating them into English is a challenging process, and since I’m still learning the ropes of Jekyll, you might see some trial and error along the way. Nevertheless, I am committed to sharing my journey here, as well as through GitHub, Substack, and Reddit.
