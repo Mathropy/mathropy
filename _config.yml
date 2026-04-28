@@ -145,6 +145,9 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-square-x-twitter"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-square-x-twitter"
+      url: https://substack.com/@mathropy
       # url:
       # rel: "me"  # optional: adds rel attribute (e.g. for IndieWeb web sign-in)
     - label: "Facebook"
