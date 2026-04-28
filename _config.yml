@@ -116,7 +116,7 @@ analytics:
 author:
   name             : "MATHROPY"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person. ENJOY!"
+  bio              : "Click my nickname to read 'About me'!"
   location         : "Korea, South"
   home             : "about/"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
