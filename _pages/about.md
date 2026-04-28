@@ -17,5 +17,6 @@ Many of the puzzles I post are "open" in a sense—I don't always have the defin
 I would love to hear your feedback on problem errors, ideas for extensions, or even blog design suggestions. I’m always open to your messages, so don't hesitate to get in touch!
 
 📧To contact me: [mathropy77@gmail.com](mailto:mathropy77@gmail.com)
+📧To subscribe me in Substack: https://substack.com/@mathropy
 
 Thank you for visiting!
