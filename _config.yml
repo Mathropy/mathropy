@@ -21,7 +21,7 @@ title                    : "Mathropy's Diary"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Mathropy"
-description              : "An amazing website."
+description              : "An entropic website."
 url                      : "https://mathropy.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/mathropy"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
