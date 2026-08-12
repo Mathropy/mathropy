@@ -1,7 +1,6 @@
 {% assign document = post | default: page %}
-{% assign topic_list = document.tags | default: document.topics %}
 
-{% if document.status or topic_list or document.difficulty or document.solution_available %}
+{% if document.status or document.tags or document.difficulty or document.solution_available %}
   <div class="puzzle-meta" aria-label="Puzzle information">
 
     {% if document.status %}
