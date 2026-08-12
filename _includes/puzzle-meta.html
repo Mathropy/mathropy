@@ -1,9 +1,11 @@
 {% assign document = post | default: page %}
 
 {% if document.status %}
-  <span class="puzzle-status puzzle-status--{{ document.status | slugify }}">
-    {{ document.status | replace: "-", " " | upcase }}
-  </span>
+  <div class="puzzle-meta" aria-label="Puzzle status">
+    <span class="puzzle-status puzzle-status--{{ document.status | slugify }}">
+      {{ document.status | replace: "-", " " | upcase }}
+    </span>
+  </div>
 {% endif %}
 
 <!-- {% if document.difficulty %}
@@ -11,6 +13,3 @@
     {{ document.difficulty | capitalize }}
   </span>
 {% endif %} -->
-
-  </div>
-{% endif %}
