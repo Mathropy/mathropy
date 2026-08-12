@@ -10,7 +10,7 @@ main:
     
   - title: "Open problems"
     url: /open-problems/
-    description: "Challenge to solve this puzzles!"
+    description: "Explore problems still open on this site"
     
   - title: "About"
     url: /about/
