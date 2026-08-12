@@ -1,25 +1,16 @@
 {% assign document = post | default: page %}
 
-{% if document.status or document.tags or document.difficulty or document.solution_available %}
-  <div class="puzzle-meta" aria-label="Puzzle information">
+{% if document.status %}
+  <span class="puzzle-status puzzle-status--{{ document.status | slugify }}">
+    {{ document.status | replace: "-", " " | upcase }}
+  </span>
+{% endif %}
 
-    {% if document.status %}
-      <span class="puzzle-status puzzle-status--{{ document.status | slugify }}">
-        {{ document.status | replace: "-", " " | upcase }}
-      </span>
-    {% endif %}
-
-    {% if document.difficulty %}
-      <span class="puzzle-difficulty">
-        {{ document.difficulty | capitalize }}
-      </span>
-    {% endif %}
-
-    {% if document.solution_available %}
-      <span class="puzzle-solution">
-        Full solution
-      </span>
-    {% endif %}
+<!-- {% if document.difficulty %}
+  <span class="puzzle-difficulty">
+    {{ document.difficulty | capitalize }}
+  </span>
+{% endif %} -->
 
   </div>
 {% endif %}
