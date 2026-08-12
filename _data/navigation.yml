@@ -3,12 +3,19 @@ main:
   - title: "Puzzles"
     url:  /puzzles/
     description: "Browse all my mathematical puzzles"
+
+  - title: "Tags"
+    url: /tags/
+    description: "Browse puzzles by mathematical subject"
+    
   - title: "Open problems"
     url: /open-problems/
     description: "Challenge to solve this puzzles!"
+    
   - title: "About"
     url: /about/
     description: "About Mathropy"
+    
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
