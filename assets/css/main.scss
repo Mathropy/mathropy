@@ -27,6 +27,19 @@ search: false
   line-height: 1.25;
 }
 
+.puzzle-question {
+  margin: 0.25rem 0 2rem;
+  padding: 1rem 1.15rem;
+
+  border: 1px solid rgba($primary-color, 0.3);
+  border-radius: 0.6rem;
+  background: rgba($primary-color, 0.06);
+
+  font-size: 1.12em;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
 @media (max-width: 600px) {
   .puzzle-post .page__content > h2 {
     margin-top: 2.6rem;
