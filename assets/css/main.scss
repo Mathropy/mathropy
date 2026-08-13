@@ -5,6 +5,14 @@ search: false
 
 @charset "utf-8";
 
+/* Mathropy brand colors */
+$primary-color: #356b7d;
+$link-color: #356b7d;
+$link-color-hover: #234e5d;
+$link-color-visited: #547985;
+$masthead-link-color: #3d4a50;
+$masthead-link-color-hover: #356b7d;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
