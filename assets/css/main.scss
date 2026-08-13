@@ -75,6 +75,31 @@ search: false
   line-height: 1.5;
 }
 
+.puzzle-post blockquote.mathropy-note {
+  margin: 2.5rem 0 1rem;
+  padding: 1rem 1.15rem;
+
+  border: 1px solid rgba($primary-color, 0.22);
+  border-left: 0.3rem solid $primary-color;
+  border-radius: 0.6rem;
+
+  background: rgba($primary-color, 0.035);
+
+  font-size: 0.93em;
+  font-style: normal;
+  line-height: 1.65;
+}
+
+.puzzle-post blockquote.mathropy-note p:last-child {
+  margin-bottom: 0;
+}
+
+.puzzle-post blockquote.mathropy-note strong:first-child {
+  color: $primary-color;
+  font-family: $sans-serif;
+  letter-spacing: 0.01em;
+}
+
 @media (max-width: 600px) {
   .puzzle-post .page__content > h2 {
     margin-top: 2.6rem;
